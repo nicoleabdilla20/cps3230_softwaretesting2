@@ -1,0 +1,34 @@
+GLOBAL {
+	VARIABLES {
+		int badLogins = 0;
+		int goodLogins = 0;
+	}
+	
+	EVENTS{
+		badLogin() = {*.badLogin()}
+		goodLogin() = {*.goodLogin()}
+		view(boolean views) = {*.view(views)}
+		logout() = {*.logout()}
+	}
+	
+	PROPERTY MarketAlertUMProperty{
+		STATES{
+			BAD{
+			}
+			NORMAL{
+				Login
+				Alerts
+			}
+			STARTING{
+				MarketAlertUM
+			}
+		}
+		
+		TRANSITIONS{
+			MarketAlertUM -> MarketAlertUM [badLogin\\badLogins++;System.out.println("Bad login observed. Bad logins: " + badLogins);]
+			MarketAlertUM -> Login [goodLogin\\goodLogins++;System.out.println("Good login observed. Good logins: " + goodLogins);]
+			Login -> Alerts [view\views == true\goodLogins=0;System.out.println("Viewing alerts ... " + views);]
+			Alerts -> MarketAlertUM [logout\\badLogins=0;System.out.println("Logged Out!");]
+			}
+	}
+}

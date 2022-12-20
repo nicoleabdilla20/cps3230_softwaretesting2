@@ -1,0 +1,11 @@
+digraph _logic_badLoginsProperty {
+rankdir=LR;
+node [shape = circle]; MarketAlertUM Scraper;
+node [shape = octagon]; BadState;
+node [shape = point]; _s_s;
+_s_s -> Scraper;
+Scraper -> MarketAlertUM [ label = "(1) goodRequest\\\\goodAPI ++ ; lockedTime . reset ( ) ; System . out . println ( \" Good API request:  \" + goodAPI ) ; "];
+Scraper -> BadState [ label = "(2) badRequest\\request == true && lockedTime . compareTo ( 30 ) >= 0 \\badAPI ++ ; System . out . println ( \" Bad request observed. Bad requests:  \" + badAPI ) ; "];
+MarketAlertUM -> Scraper [ label = "(1) getResponse\\response == true && lockedTime . compareTo ( 30 ) < 0 \\badAPI = 0 ; System . out . println ( \" Getting Response \" ) ; "];
+BadState -> Scraper [ label = "(1) returnTo\\returning == true \\badAPI = 0 ; System . out . println ( \" Returning to scraper ...  \" + returning ) ; "];
+}

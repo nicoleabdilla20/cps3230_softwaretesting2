@@ -1,0 +1,153 @@
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Good API request: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.goodRequest(boolean) TO STATE::> MarketAlertUM
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>MarketAlertUM
+Getting Response
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.getResponse(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Good API request: 2
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.goodRequest(boolean) TO STATE::> MarketAlertUM
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>MarketAlertUM
+Getting Response
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.getResponse(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Good API request: 3
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.goodRequest(boolean) TO STATE::> MarketAlertUM
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>MarketAlertUM
+Getting Response
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.getResponse(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Good API request: 4
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.goodRequest(boolean) TO STATE::> MarketAlertUM
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>MarketAlertUM
+Getting Response
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.getResponse(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Good API request: 5
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.goodRequest(boolean) TO STATE::> MarketAlertUM
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>MarketAlertUM
+Getting Response
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.getResponse(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Good API request: 6
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.goodRequest(boolean) TO STATE::> MarketAlertUM
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>MarketAlertUM
+Getting Response
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.getResponse(boolean) TO STATE::> eBay
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>eBay
+Bad request observed. Bad requests: 1
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.badRequest(boolean) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! BadState 
+aspects._asp_scraper0.ajc$before$aspects__asp_scraper0$5$e9e987b5(_asp_scraper0.aj:52)
+main.eBay.run(eBay.java:30)
+main.eBay.main(eBay.java:51) 
+[eBayProperty]AUTOMATON::> eBayProperty() STATE::>BadState
+Returning to scraper ... true
+[eBayProperty]MOVED ON METHODCALL: void main.eBay.returnTo(boolean) TO STATE::> eBay

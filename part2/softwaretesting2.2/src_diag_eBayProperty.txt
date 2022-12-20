@@ -1,0 +1,11 @@
+digraph _logic_eBayProperty {
+rankdir=LR;
+node [shape = circle]; MarketAlertUM eBay;
+node [shape = octagon]; BadState;
+node [shape = point]; _s_s;
+_s_s -> eBay;
+MarketAlertUM -> eBay [ label = "(1) getResponse\\response == true \\; System . out . println ( \" Getting Response \" ) ; "];
+BadState -> eBay [ label = "(1) returnTo\\returning == true \\badAPI = 0 ; System . out . println ( \" Returning to scraper ...  \" + returning ) ; "];
+eBay -> MarketAlertUM [ label = "(1) goodRequest\\request == true \\goodAPI ++ ; System . out . println ( \" Good API request:  \" + goodAPI ) ; "];
+eBay -> BadState [ label = "(2) badRequest\\request == true \\badAPI ++ ; System . out . println ( \" Bad request observed. Bad requests:  \" + badAPI ) ; "];
+}

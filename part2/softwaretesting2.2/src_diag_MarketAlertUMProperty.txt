@@ -1,0 +1,10 @@
+digraph _logic_MarketAlertUMProperty {
+rankdir=LR;
+node [shape = circle]; Login Alerts MarketAlertUM;
+node [shape = point]; _s_s;
+_s_s -> MarketAlertUM;
+MarketAlertUM -> MarketAlertUM [ label = "(1) badLogin\\\\badLogins ++ ; System . out . println ( \" Bad login observed. Bad logins:  \" + badLogins ) ; "];
+MarketAlertUM -> Login [ label = "(2) goodLogin\\\\goodLogins ++ ; System . out . println ( \" Good login observed. Good logins:  \" + goodLogins ) ; "];
+Login -> Alerts [ label = "(1) view\\views == true \\goodLogins = 0 ; System . out . println ( \" Viewing alerts ...  \" + views ) ; "];
+Alerts -> MarketAlertUM [ label = "(1) logout\\\\badLogins = 0 ; System . out . println ( \" Logged Out! \" ) ; "];
+}

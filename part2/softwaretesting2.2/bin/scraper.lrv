@@ -1,0 +1,34 @@
+GLOBAL {
+	VARIABLES {
+		int goodAPI = 0;
+		int badAPI = 0;
+	}
+	
+	EVENTS{
+		getResponse(boolean response) = {*.getResponse(response)}
+		returnTo(boolean returning) = {*.returnTo(returning)}
+		goodRequest(boolean request) = {*.goodRequest(request)}
+		badRequest(boolean request) = {*.badRequest(request)}
+	}
+	
+	PROPERTY eBayProperty{
+		STATES{
+			BAD{
+				BadState
+			}
+			NORMAL{
+				MarketAlertUM
+			}
+			STARTING{
+				eBay
+			}
+		}
+		
+		TRANSITIONS{ 
+			eBay -> MarketAlertUM [goodRequest\request == true\goodAPI ++;System.out.println("Good API request: " + goodAPI);]
+			MarketAlertUM -> eBay [getResponse\response == true\;System.out.println("Getting Response");]
+			eBay -> BadState [badRequest\request == true\badAPI++;System.out.println("Bad request observed. Bad requests: " + badAPI);]
+			BadState -> eBay [returnTo\returning==true\badAPI=0;System.out.println("Returning to scraper ... " + returning);]
+		}
+	}
+}
